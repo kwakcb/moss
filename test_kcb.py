@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {{
 }});
 </script>
 <button id="copy-button">Copy to Clipboard</button>
-
+"""
 
 # 클립보드 복사 버튼을 HTML로 삽입
 components.html(copy_script, height=100)
