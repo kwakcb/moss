@@ -11,7 +11,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-
 etc_memo = st.text_input("memo input")
 st.code(etc_memo)
 
@@ -22,7 +21,6 @@ additional_texts = [
     "sh arp pon | inc ",
     "sh epon ip-macs all all | inc ",
 ]
-
 
 # IP 주소가 입력된 경우에만 처리
 if ip_address:
@@ -37,7 +35,7 @@ st.code("Link 현행화.....")
 st.code("★장비교체 완료 NeOSS, NMS, SDN")
 
 # 리스트박스에 표시할 항목 목록 정의
-options = ["[NOC_10G(용량확대)]","[NOC_BAT(24)]","[NOC_CRC발생]"," [NOC_PLK_PSU교체]"," [NOC_PSU교체]",
+options = ["[NOC_10G(용량확대)]","[NOC_BAT(24)]","[NOC_CRC발생]","[NOC_PLK_PSU교체]","[NOC_PSU교체]",
            "[NOC_고객프로파일]","[NOC_광레벨불]","[NOC_자산관리]","[NOC_장비교체]","[NOC_장비철거]",
            "[NOC_전원OFF]","[NOC_중복장애]","[NOC_통합멀티룸]","[NOC_품질개선]"]
 
